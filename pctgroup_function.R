@@ -1,5 +1,7 @@
-#As the function requires the tidyverse this code chunk checks if the package is installed and if not installs it before loading.
 
+# Loading dependency ---------------------------------------------------------
+
+#As the function requires the tidyverse this code chunk checks if the package is installed and if not installs it before loading.
 if(!require(tidyverse)){
   install.packages("tidyverse")
   library(tidyverse)
